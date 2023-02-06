@@ -14,14 +14,11 @@ const Products = () => {
   return (
     <div>
       <h1>I am from Products</h1>
-      {
-        products.map((product)=>(
-          <Product
-          key={product.id}
-          product={product}
-          />
-        ))
-      }
+      <div className='grid grid-cols-3 gap-4 '>
+        {products.map((product) => (
+          <Product key={product.id} product={product} />
+        ))}
+      </div>
     </div>
   );
 };
