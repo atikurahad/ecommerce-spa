@@ -1,5 +1,6 @@
 import React from 'react';
 import './home.css'
+import Products from '../Products/Products'
 
 const Home = () => {
   return (
@@ -9,7 +10,7 @@ const Home = () => {
           <div className="image-bg"></div>
           <div className='text-center'>
             {" "}
-            <p className=" text-center my-auto font-serif  mx-auto text-5xl p-3 text-emerald-500	">
+            <p className=" text-center my-auto font-serif  mx-auto text-5xl p-3 text-gray-300	">
               Online shopping is a form of electronic commerce which allows
               consumers <br /> to directly buy goods. <br />
             </p>
@@ -19,6 +20,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Products/>
     </>
   );
 };
