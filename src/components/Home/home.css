@@ -1,3 +1,8 @@
-.image-bg{
-  background-image: url('https: //thumbs.dreamstime.com/b/flat-line-design-website-banner-e-commerce-modern-vector-illustration-web-marketing-print-material-68581557.jpg');
+
+.image-bg {
+  background-image: url("../../../public/Shopping-cuate.png");
+  height: 100vh;
+  /* font-size: 50px; */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
